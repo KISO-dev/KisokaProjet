@@ -12,3 +12,4 @@ const intros = [
       const randomMessage =  randomIntro;
       return randomMessage;
     }
+    console.log(generateRandomMessage())
