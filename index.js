@@ -6,3 +6,9 @@ const intros = [
     "Hello !",
     "Coucou !"
   ];
+    // Fonction pour générer un message aléatoire
+    function generateRandomMessage() {
+      const randomIntro = intros[Math.floor(Math.random() * intros.length)];
+      const randomMessage =  randomIntro;
+      return randomMessage;
+    }
